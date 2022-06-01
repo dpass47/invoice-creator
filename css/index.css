@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: auto;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    margin: 0px 10px;
+}
+
+.title-bar {
+    background-color: #3A69D2;
+    text-align: center;
+    color: #fff;
+    padding: 2%;
+}
+
+.top-graph {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #D5D4D8;
+    margin: 10px 20px;
+    font-style: normal;
+}
+
+.bottom-graph {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #D5D4D8;
+    margin: 20px 20px 40px 20px;
+    padding-top: 10px;
+    font-style: normal;
+    border-top: 1px solid white;
+}
+
+.buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tasks-list {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#wash-btn,
+#lawn-btn,
+#weed-btn {
+    padding: 10px 13px;
+    background: #D1D4F4;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 0;
+    color: #4A4E74;
+    margin: auto;
+}
+
+#wash-btn:active,
+#lawn-btn:active,
+#weed-btn:active {
+    background: #b3b5d1;
+}
+
+#float-right {
+    float: right;
+}
+
+#send-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30%;
+    margin: auto;
+    border: 0;
+    background-color: #3A69D2;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+#send-btn:active {
+    background-color: #2e53a3;
+}
+
+#send-btn:hover,
+#wash-btn:hover,
+#lawn-btn:hover,
+#weed-btn:hover,
+#remove:hover {
+    cursor: pointer;
+}
+
+#tasks {
+    color: #fff;
+}
+
+#total-amount {
+    float: right;
+}
+
+#remove {
+    font-size: 10px;
+    color: #D5D4D8;
+    margin-left: 10px;
+}
