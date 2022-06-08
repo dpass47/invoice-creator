@@ -1,4 +1,4 @@
-# invoice-creator
+# Invoice Creator
 
 A simple invoice creator to bill for tasks. 
 
